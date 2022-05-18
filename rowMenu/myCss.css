@@ -1,0 +1,33 @@
+#block li{
+    list-style: none;
+    position: relative;
+    width:100px;
+    height: 30px;
+    padding:0px 20px;
+    background-color: black;
+    line-height: 30px;
+    cursor:pointer;
+    float: left;
+    text-align: center;
+}
+#block li a{
+    text-decoration:none;
+    color: white;
+}
+
+#block li:hover{
+    background-color:red;
+}
+
+#block ul ul{
+    position: absolute;
+    top:30px;
+    left: -40px;
+    visibility:hidden;
+}
+
+
+
+#block ul li:hover ul{
+    visibility:visible;
+}
