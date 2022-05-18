@@ -19,14 +19,12 @@
     background-color:red;
 }
 
-#block ul ul{
+#block ul ul {
     position: absolute;
-    top:30px;
+    top: 30px;
     left: -40px;
-    visibility:hidden;
+    visibility: hidden;
 }
-
-
 
 #block ul li:hover ul{
     visibility:visible;
