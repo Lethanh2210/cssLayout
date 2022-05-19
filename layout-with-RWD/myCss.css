@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#menu li{
+    list-style: none;
+    background-color: black;
+    float: left;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    cursor:pointer;
+    line-height: 30px;
+    padding: 0 40px;
+}
+#menu {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+
+#menu ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#menu ul ul{
+    width: 100%;
+    visibility: hidden;
+}
+
+#menu li:hover{
+    background: rgba(0,0,0,0.5);
+    /*background-color: red;*/
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#menu ul li:hover ul{
+    visibility: visible;
+}
+
+#menu ul li ul li{
+    background-color: orange;
+}
+
+#menu li li{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 30px;
+    box-sizing: border-box;
+}
+
+#login {
+    margin-left: 50%;
+    margin-top: 0;
+}
+
+#left, #right{
+    background-color: darkgray;
+    width: 25%;
+    height: 700px;
+    position: fixed;
+
+}
+#mid {
+    background-color: yellow;
+    width: 50%;
+    position: absolute;
+    height: auto;
+    margin-left: 25%;
+}
+
+#body{
+    top: 30px;
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+
+}
+
+#right{
+    margin-left: 75%;
+}
+
+#footer{
+
+    background-color: #9933cc;
+    width: 100%;
+    height: 200px;
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    /*clear:both;*/
+
+
+}
+
+#mid ul {
+
+}
+
